@@ -1,0 +1,22 @@
+{
+  "name": "vuejs-mongodb-express-api",
+  "version": "1.0.0",
+  "description": "Vuejs, MongoDB and Express project API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VardanMelik/vuejs-mongodb-express-api.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Vardan Meliksetyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VardanMelik/vuejs-mongodb-express-api/issues"
+  },
+  "homepage": "https://github.com/VardanMelik/vuejs-mongodb-express-api#readme"
+}
