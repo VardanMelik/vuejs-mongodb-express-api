@@ -18,3 +18,12 @@ exports.create_a_user = (req, res) => {
             res.send()
     });
 }
+
+exports.read_a_users = (req, res) => {
+
+    User.findById({ req.params.userId }, (err, user) => {
+        if (err)
+            res.send(err);
+        res.json(user);
+    });
+};

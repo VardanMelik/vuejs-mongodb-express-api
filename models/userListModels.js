@@ -12,6 +12,10 @@ var UserSchema = new Schema({
         type: String,
         required: 'Please enter'
     },
+    email: {
+        type: String,
+        required: 'Please enter'
+    },
     created_date: {
         type: Date,
         default: Date.now
